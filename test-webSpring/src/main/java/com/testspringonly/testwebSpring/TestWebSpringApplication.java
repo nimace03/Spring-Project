@@ -12,6 +12,6 @@ public class TestWebSpringApplication {
 		ApplicationContext applicationContext = SpringApplication.run(TestWebSpringApplication.class,args);
 		BinarySearch ObjBinary = applicationContext.getBean(BinarySearch.class);
 		int result = ObjBinary.BinarySearchs(new int[]{12,12,12},13);
-		System.out.println("THe result is "+result);
+		System.out.println("The Result is "+result);
 	}
 }
